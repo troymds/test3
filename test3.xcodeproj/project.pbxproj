@@ -19,6 +19,7 @@
 		F3D8E6DF19E7A11500C3631F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D8E6C719E7A11500C3631F /* UIKit.framework */; };
 		F3D8E6E719E7A11500C3631F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3D8E6E519E7A11500C3631F /* InfoPlist.strings */; };
 		F3D8E6E919E7A11500C3631F /* test3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D8E6E819E7A11500C3631F /* test3Tests.m */; };
+		F3D8E6F419E7A45B00C3631F /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D8E6F319E7A45B00C3631F /* firstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		F3D8E6E419E7A11500C3631F /* test3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test3Tests-Info.plist"; sourceTree = "<group>"; };
 		F3D8E6E619E7A11500C3631F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3D8E6E819E7A11500C3631F /* test3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test3Tests.m; sourceTree = "<group>"; };
+		F3D8E6F219E7A45B00C3631F /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		F3D8E6F319E7A45B00C3631F /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				F3D8E6D219E7A11500C3631F /* AppDelegate.h */,
 				F3D8E6D319E7A11500C3631F /* AppDelegate.m */,
+				F3D8E6F219E7A45B00C3631F /* firstViewController.h */,
+				F3D8E6F319E7A45B00C3631F /* firstViewController.m */,
 				F3D8E6D519E7A11500C3631F /* Images.xcassets */,
 				F3D8E6CA19E7A11500C3631F /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3D8E6D419E7A11500C3631F /* AppDelegate.m in Sources */,
+				F3D8E6F419E7A45B00C3631F /* firstViewController.m in Sources */,
 				F3D8E6D019E7A11500C3631F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
